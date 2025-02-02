@@ -63,6 +63,10 @@
   padding: 0%;
 }
 
+.profile__edit-btn:hover {
+  opacity: 100%;
+}
+
 .profile__add-btn {
   gap: 8px;
   display: flex;
@@ -79,6 +83,10 @@
   border: none;
   color: #fcf5e5;
   font-weight: 500;
+}
+
+.profile__add-btn:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {

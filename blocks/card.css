@@ -21,6 +21,10 @@
   opacity: 40%;
 }
 
+.card__like-btn:hover {
+  opacity: 100%;
+}
+
 .card__title {
   font-size: 20px;
   line-height: 24px;
