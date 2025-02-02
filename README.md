@@ -1,5 +1,21 @@
 # Project 3: Spots
 
+_Welcome_
+![coding specialist](image.png)
+The Spots project webpage is TripleTens third project, the project that makes a difference. It was created using HTML and CSS, based on the design brief.
+
+**Technologies Used**
+
+- HTML5
+- CSS3
+- Flexbox
+- Grid Layout
+
+**How to Run**
+
+1. Clone the repository to your local machine.
+2. Open `index.html` in your preferred web
+
 ### Overview
 
 - Intro
