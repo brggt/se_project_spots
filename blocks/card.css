@@ -3,11 +3,12 @@
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .card__content {
   display: flex;
+  margin-top: 12px;
   align-items: center;
   justify-content: space-between;
 }
@@ -27,11 +28,12 @@
 }
 
 .card__title {
+  margin: 0;
   font-size: 20px;
   line-height: 24px;
   color: #212121;
   font-weight: 500;
-  max-width: 450px;
+  max-width: 350px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -40,5 +42,15 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__content {
+    max-width: 250px;
+  }
+
+  .card__title {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 200px;
   }
 }
