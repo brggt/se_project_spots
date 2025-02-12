@@ -7,3 +7,9 @@
     padding: 0 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 0 16px;
+  }
+}
