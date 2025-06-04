@@ -1,5 +1,9 @@
 # Project 3: Spots
 
+VIDEOS:
+https://drive.google.com/file/d/1q3x13T74pUMfw_g9QpDWP289lpbKh-kH/view?usp=drive_link
+https://drive.google.com/file/d/1mMEEM0-1hkKK7dbce8A9q1FYQc2w2DFO/view?usp=drive_link
+
 _Welcome_
 ![coding specialist](image.png)
 The Spots project webpage is TripleTens third project, the project that makes a difference. It was created using HTML and CSS, based on the design brief.
