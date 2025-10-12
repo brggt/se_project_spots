@@ -112,7 +112,7 @@
       <footer class="footer">
         <h2 class="footer__column-foot">2023 © Spots</h2>
       </footer>
-      <div class="modal modal_is-opened">
+      <div class="modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit profile</h2>
@@ -130,6 +130,32 @@
               Description
               <input
                 id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              /> </label
+            ><button type="submit" class="modal__save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn"></button>
+          <h2 class="modal__title">New post</h2>
+          <form class="modal__form">
+            <label for="card-image-input" class="modal__label">
+              Image link
+              <input
+                id="card-image-input"
+                type="url"
+                class="modal__input"
+                placeholder="Place a link to the picture"
+              />
+            </label>
+            <label for="post-caption-input" class="modal__label">
+              Caption
+              <input
+                id="post-caption-input"
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
