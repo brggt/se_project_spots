@@ -1,3 +1,5 @@
+/* TO-DO!! Add Correct Font Styles */
+
 .modal {
   visibility: hidden;
   background-color: #00000080;
@@ -24,35 +26,67 @@
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  padding: 32px 50px;
+  padding: 0;
   position: relative;
+}
+
+.modal__title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 32px 50px 0 50px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
 }
 
 .modal__close-btn {
   position: absolute;
+  display: flex;
   top: 32px;
   right: 50px;
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   background: url("../images/close-icon.svg") no-repeat center;
   background-size: contain;
   border: none;
   cursor: pointer;
+  padding: 0;
+}
+
+.modal__save-btn {
+  padding: 18px 32px 18px 32px;
+  background-color: #000000;
+  width: 156px;
+  height: 52px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start;
+  gap: 8px;
 }
 
 .modal__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 32px 50px;
+  padding: 32px 0 32px 50px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 630px;
+  border-radius: 8px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
 .modal__input {
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #21212166;
+  border-radius: 8px;
   font-size: 16px;
+  gap: 10px;
 }
 
 .modal__label {
@@ -63,4 +97,8 @@
   font-size: 14px;
   color: #333;
   gap: 8px;
+}
+
+.modal__input::placeholder {
+  color: #2121214d;
 }
