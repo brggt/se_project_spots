@@ -1,48 +1,44 @@
-# Project 3: Spots
+# Spots
 
-VIDEOS:
-https://drive.google.com/file/d/1q3x13T74pUMfw_g9QpDWP289lpbKh-kH/view?usp=drive_link
-https://drive.google.com/file/d/1mMEEM0-1hkKK7dbce8A9q1FYQc2w2DFO/view?usp=drive_link
+Spots is a responsive photo-sharing project created during the TripleTen Software Engineering program. It was built to practice responsive layouts, modal forms, DOM interaction, and JavaScript fundamentals while matching a provided design brief.
 
-_Welcome_
-![coding specialist](image.png)
-The Spots project webpage is TripleTens third project, the project that makes a difference. It was created using HTML and CSS, based on the design brief.
+## Live Demo
+
+**Demo:** https://brggt.github.io/se_project_spots/
+
+## Features
+
+- Responsive profile and photo-card layout
+- Edit-profile modal and form
+- New-post modal and form interface
+- Responsive behavior for popular screen sizes
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
 - Flexbox
-- Grid Layout
+- CSS Grid
+- BEM-style class organization
 
-## How to Run
+## How to Run Locally
 
-1. Clone the repository to your local machine.
-2. Open `index.html` in your preferred web
+1. Clone this repository.
+2. Open `index.html` in a browser.
 
-## Overview
+## Plans for Improvement
 
-- Intro
-- Figma
-- Images
+- Complete the dynamic new-post flow so submitted images and captions are added to the card list.
+- Add interactive like behavior to photo cards.
+- Add stronger form validation and user feedback.
+- Continue refining accessibility and cross-browser behavior.
 
-## Intro
+## Project Materials
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+Design reference:
+- https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1
 
-## Figma
-
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-
-## Images
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-## Deployment
-
-This webpage is deployed to Github Pages
-
-- Deployment Link:
-  https://brggt.github.io/se_project_spots/
-
-Good luck and have fun!
+Project videos:
+- https://drive.google.com/file/d/1q3x13T74pUMfw_g9QpDWP289lpbKh-kH/view?usp=drive_link
+- https://drive.google.com/file/d/1mMEEM0-1hkKK7dbce8A9q1FYQc2w2DFO/view?usp=drive_link
