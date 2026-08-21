@@ -14,6 +14,7 @@
 }
 
 .card__like-btn {
+  cursor: pointer;
   background-image: url(../images/heart.svg);
   width: 23px;
   height: 20px;

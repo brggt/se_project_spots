@@ -26,7 +26,6 @@
   max-width: 420px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -42,7 +41,6 @@
   opacity: 70%;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -62,6 +60,7 @@
   color: #212121;
   opacity: 70%;
   padding: 0%;
+  cursor: pointer;
 }
 
 .profile__edit-btn:hover {
@@ -85,6 +84,7 @@
   border: none;
   color: #fcf5e5;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .profile__add-btn:hover {
