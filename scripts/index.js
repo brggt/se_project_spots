@@ -57,6 +57,7 @@ function handleEditProfileSubmit(evt) {
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
 
+  newPostForm.reset();
   closeModal(editProfileModal);
 }
 
